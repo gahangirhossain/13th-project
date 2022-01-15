@@ -31,4 +31,5 @@ OrderController.getAll)
 app.delete('/active-user/:id',UserController.deleteUser)
 
 const PORT = process.env.PORT || 5000;
+console.log('ok')
 app.listen(PORT, ()=>console.log('app is running in http://localhost:5000'))
